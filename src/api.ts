@@ -2,13 +2,12 @@ import axios from "axios";
 import type { BotSettings } from "@/types/bot_settings";
 import { generateRandomKey } from "@/helpers/keygen";
 
-const baseURL = "https://8ec4-194-110-8-164.ngrok-free.app";
+const baseURL = "http://localhost:5005";
 
 const api = axios.create({
   baseURL,
 });
 
-api.defaults.headers.common["ngrok-skip-browser-warning"] = "1";
 
 api.interceptors.request.use(
   (config) => {
