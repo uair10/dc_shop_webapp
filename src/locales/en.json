@@ -1,0 +1,17 @@
+{
+  "goToCart": "Go to Cart",
+  "goBack": "Go Back",
+  "loading": {
+    "skeleton": {
+      "image": "Image",
+      "title": "Title",
+      "description": "Description",
+      "price": "Price",
+      "button": "Button"
+    }
+  },
+  "addToCart": "Add to Cart",
+  "telegramLogin": {
+    "loginButton": "Log in with Telegram"
+  }
+}
